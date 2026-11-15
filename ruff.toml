@@ -1,0 +1,17 @@
+line-length = 120
+target-version = "py312"
+
+[lint]
+select = [
+    "A", "ANN", "ARG", "ASYNC", "B", "BLE", "C4", "C90", "COM818", "DJ", "DTZ", "E", "F", "FA", "FBT", "FIX",
+    "FLY", "FURB", "G", "I", "ICN", "INP", "INT", "ISC", "LOG", "N", "NPY", "PD", "PERF", "PGH", "PIE", "PL", "PLC",
+    "PLE", "PLR", "PLW", "PT", "PTH", "Q", "RET", "RSE", "RUF", "S", "S102", "S110", "S112", "S113", "S306", "S506",
+    "S602", "S604", "S605", "SIM", "SLF", "SLOT", "T10", "T20", "TC", "TD", "TID", "TRY", "UP", "W", "YTT"
+]
+ignore = ["ASYNC109", "TD002", "TD003", "TC006", "TC007",  "TRY003", "RUF106", "RUF201"]
+
+[format]
+docstring-code-format = true
+
+[lint.per-file-ignores]
+"!src/**" = ["S101", "PLR2004", "INP001"]

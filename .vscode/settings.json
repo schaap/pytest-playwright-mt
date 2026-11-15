@@ -1,0 +1,13 @@
+{
+    "python.analysis.extraPaths": [
+        "src/"
+    ],
+    "telemetry.feedback.enabled": false,
+    "telemetry.editStats.enabled": false,
+    "python.analysis.typeCheckingMode": "strict",
+    "python.analysis.typeEvaluation.deprecateTypingAliases": true,
+    "python.autoComplete.extraPaths": [
+        "src/"
+    ],
+    "python.analysis.includeVenvInWorkspaceSymbols": true
+}
